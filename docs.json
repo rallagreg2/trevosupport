@@ -1,13 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Trevo Help Center",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
       {
@@ -16,6 +15,53 @@
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "I'm Buying",
+        "icon": "cart-shopping",
+        "pages": [
+          "buying/find-a-listing",
+          "buying/place-an-order",
+          "buying/price-quantity-and-currency",
+          "buying/after-you-pay",
+          "buying/payment-methods",
+          "buying/checkout-issues"
+        ]
+      },
+      {
+        "group": "I'm Selling",
+        "icon": "store",
+        "pages": [
+          "selling/become-a-seller",
+          "selling/seller-verification",
+          "selling/create-a-listing",
+          "selling/prices-quantities-delivery",
+          "selling/currency-bundles",
+          "selling/marketplace-fee"
+        ]
+      },
+      {
+        "group": "Account & Security",
+        "icon": "shield-halved",
+        "pages": [
+          "account/create-an-account",
+          "account/account-security",
+          "account/update-account-details",
+          "account/compromised-account"
+        ]
+      },
+      {
+        "group": "Rules & Policies",
+        "icon": "scale-balanced",
+        "pages": [
+          "policies/marketplace-rules",
+          "policies/seller-rules"
+        ]
+      },
+      {
+        "group": "FAQ",
+        "icon": "circle-question",
+        "pages": []
       }
     ],
     "global": {
@@ -33,40 +79,8 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  "description": "Guides and answers for buying, selling, and staying secure on Trevo.",
+  "appearance": {
+    "default": "dark"
   }
 }
