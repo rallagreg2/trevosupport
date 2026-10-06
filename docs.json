@@ -43,12 +43,20 @@
       {
         "group": "Account & Security",
         "icon": "shield-halved",
-        "pages": []
+        "pages": [
+          "account/create-an-account",
+          "account/account-security",
+          "account/update-account-details",
+          "account/compromised-account"
+        ]
       },
       {
         "group": "Rules & Policies",
         "icon": "scale-balanced",
-        "pages": []
+        "pages": [
+          "policies/marketplace-rules",
+          "policies/seller-rules"
+        ]
       },
       {
         "group": "FAQ",
